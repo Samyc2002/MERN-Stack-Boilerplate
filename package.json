@@ -1,0 +1,28 @@
+{
+  "name": "mern-stack-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for MERN Stack applications",
+  "main": "index.js",
+  "scripts": {
+    "no-browser": "$Env:BROWSER=\"none\"",
+    "start": "concurrently \" npm run server \" \" npm run client \"",
+    "client": "cd client && npm start",
+    "server": "cd server && npm run dev",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samyc2002/MERN-Stack-Boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Samy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samyc2002/MERN-Stack-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Samyc2002/MERN-Stack-Boilerplate#readme",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
