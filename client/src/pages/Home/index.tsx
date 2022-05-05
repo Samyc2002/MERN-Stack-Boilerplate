@@ -5,20 +5,387 @@ import logo from '../../logo.svg';
 const Home = () => {
   return (
     <div className="App">
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Learn React
-        </a>
-        </header>
+       <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+
+
+    <header class="site-navbar py-1" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-6 col-xl-2">
+            <a href="index.html"><img src="images/oss_logo.png" style="max-height: 100px;"></a>
+            <!-- <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">O<strong>SS</strong></a></h1> -->
+          </div>
+
+          <div class="col-10 col-xl-10 d-none d-xl-block">
+            <nav class="site-navigation text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="previousTeam.html">Previous Team</a></li>
+                <li><a href="new_post.html"><span class="rounded bg-primary py-2 px-3 text-white"><span class="h5 mr-2">+</span>Propose an Idea </span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="col-6 col-xl-2 text-right d-block">
+
+            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </header>    <div class="site-blocks-cover" style="background-image: url(images/bk1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row row-custom align-items-center">
+          <div class="col-md-12" style="background: rgba(0,0,0,0.4)">
+            <h1 class="mb-2 text-white" style="text-align: center"><span class="font-weight-bold">Open Student Society <br> IIT Dharwad</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Introduction -->
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-6" data-aos="fade" >
+            <h2 class="text-black">Why O<strong>SS</strong> ?</h2>
+          </div>
+        </div>
+        <div class="row hosting">
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-4" data-aos="fade" data-aos-delay="100">
+
+            <div class="unit-3 h-100 bg-white">
+
+              <div class="d-flex align-items-center mb-3 unit-3-heading">
+                <div class="unit-3-icon-wrap mr-4">
+                  <svg class="unit-3-svg" xmlns="http://www.w3.org/2000/svg" width="59px" height="68px">
+                    <path fill-rule="evenodd" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none" d="M29.000,66.000 L1.012,49.750 L1.012,17.250 L29.000,1.000 L56.988,17.250 L56.988,49.750 L29.000,66.000 Z"></path>
+                  </svg><span class="unit-3-icon icon "><img src="images/event.png"></span>
+                </div>
+                <h2 class="h5">Co-ordinate Events and Activities</h2>
+              </div>
+              <div class="unit-3-body">
+                <p>OSS is not a club, rather a community that seeks to unite all clubs in college to organize events and activities. </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-4" data-aos="fade" data-aos-delay="200">
+
+            <div class="unit-3 h-100 bg-white">
+
+              <div class="d-flex align-items-center mb-3 unit-3-heading">
+                <div class="unit-3-icon-wrap mr-4">
+                  <svg class="unit-3-svg" xmlns="http://www.w3.org/2000/svg" width="59px" height="68px">
+                    <path fill-rule="evenodd" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none" d="M29.000,66.000 L1.012,49.750 L1.012,17.250 L29.000,1.000 L56.988,17.250 L56.988,49.750 L29.000,66.000 Z"></path>
+                  </svg><span class="unit-3-icon icon"><img src="images/opensource.png"></span>
+                </div>
+                <h2 class="h5"> Promote Open-Source</h2>
+              </div>
+              <div class="unit-3-body">
+                <p>We believe in sharing our amazing projects for the benefit of the public and open source seems to be the right step in this direction.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-4" data-aos="fade" data-aos-delay="300">
+
+            <div class="unit-3 h-100 bg-white">
+
+              <div class="d-flex align-items-center mb-3 unit-3-heading">
+                <div class="unit-3-icon-wrap mr-4">
+                  <svg class="unit-3-svg" xmlns="http://www.w3.org/2000/svg" width="59px" height="68px">
+                    <path fill-rule="evenodd" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none" d="M29.000,66.000 L1.012,49.750 L1.012,17.250 L29.000,1.000 L56.988,17.250 L56.988,49.750 L29.000,66.000 Z"></path>
+                  </svg><span class="unit-3-icon icon"><img src="images/bulb.png"></span>
+                </div>
+                <h2 class="h5">Innovation Game</h2>
+              </div>
+              <div class="unit-3-body">
+                <p>We strongly encourage our engineers to work on state of the art projects for the benefit of the society and the world.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-4" data-aos="fade" data-aos-delay="400">
+
+            <div class="unit-3 h-100 bg-white">
+
+              <div class="d-flex align-items-center mb-3 unit-3-heading">
+                <div class="unit-3-icon-wrap mr-4">
+                  <span class="unit-3-icon icon"><img src="images/flag.png"></span>
+                </div>
+                <h2 class="h5">Get Expert Help</h2>
+              </div>
+              <div class="unit-3-body">
+                <p>As a part of the community, you will have the opportunity to connect, interact and take help from experts in and around the campus to grow as an individual.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-4" data-aos="fade" data-aos-delay="500">
+
+            <div class="unit-3 h-100 bg-white">
+
+              <div class="d-flex align-items-center mb-3 unit-3-heading">
+                <div class="unit-3-icon-wrap mr-4">
+                  <svg class="unit-3-svg" xmlns="http://www.w3.org/2000/svg" width="59px" height="68px">
+                    <path fill-rule="evenodd" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none" d="M29.000,66.000 L1.012,49.750 L1.012,17.250 L29.000,1.000 L56.988,17.250 L56.988,49.750 L29.000,66.000 Z"></path>
+                  </svg><span class="unit-3-icon icon fl-bigmug-line-clipboard68"></span>
+                </div>
+                <h2 class="h5">Collaborate with others</h2>
+              </div>
+              <div class="unit-3-body">
+                <p>Nothing gets a job done better than Teamwork! Join hands with other members to succeed in making your ideas come alive.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-5 mb-lg-4" data-aos="fade" data-aos-delay="600">
+
+            <div class="unit-3 h-100 bg-white">
+
+              <div class="d-flex align-items-center mb-3 unit-3-heading">
+                <div class="unit-3-icon-wrap mr-4">
+                  <svg class="unit-3-svg" xmlns="http://www.w3.org/2000/svg" width="59px" height="68px">
+                    <path fill-rule="evenodd" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none" d="M29.000,66.000 L1.012,49.750 L1.012,17.250 L29.000,1.000 L56.988,17.250 L56.988,49.750 L29.000,66.000 Z"></path>
+                  </svg><span class="unit-3-icon icon"><img src="images/open.png"></span>
+                </div>
+                <h2 class="h5">Open to All !</h2>
+              </div>
+              <div class="unit-3-body">
+                <p>OSS is an open Society for students. We encourage equal participation from all branches and years in college to grow together as a community.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!-- End Section Introduction -->
+
+    <!--Start Section Recent Events-->
+    <div class="site-section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-6" data-aos="fade" >
+            <h2 class="text-black">Latest Events</h2>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-3 event-card" data-aos="fade">
+            <div class="position-relative unit-8">
+            <a href="https://parsec.iitdh.ac.in/" class="mb-3 d-block img-a"><img src="images/Parsec.png" alt="Image" style="width:100%" class="img-fluid rounded"></a>
+            <center><span class="d-block text-gray-500 text-normal small mb-3">By <a href="index.html">OSS</a> <span class="mx-2">&bullet;</span> March 4th-6th, 2022</span></center>
+            <h2 class="h5 font-weihgt-normal line-height-sm mb-3"><a href="https://parsec.iitdh.ac.in/" target="_blank" class="text-black">
+              <center><strong>PARSEC, 2022</strong></a></h2></center>
+            <center><p><strong>PARSEC 2022, the 2<sup>nd</sup> edition to the Tech Fest of IIT Dharwad, aims to bring together the magnificient technologists and showcase their expertise and hone their skills.</strong></center> 
+              <br> <center>Check out for more information.</center></p>
+            </div>
+        </div>
+
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-3 event-card" data-aos="fade">
+              <div class="position-relative unit-8">
+              <a href="hacktoberfest2021.html" class="mb-3 d-block img-a"><img src="images/Hacktoberfest.svg" alt="Image" style="width:100%" class="img-fluid rounded"></a>
+              <center><span class="d-block text-gray-500 text-normal small mb-3">By <a href="index.html">OSS</a> <span class="mx-2">&bullet;</span> Oct 6th, 2021</span></center>
+              <h2 class="h5 font-weihgt-normal line-height-sm mb-3"><a href="hacktoberfest2021.html" class="text-black">
+                <center><strong>HacktoberFest</strong> <br> (edition IIT Dharwad)</a></h2></center>
+              <center><p><strong>A step into the world of open source as a part of the offical HacktoberFest event 2021.</strong></center> 
+                <br> <center>Check out for more information.</center></p>
+              </div>
+          </div>
+
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-3 event-card" data-aos="fade">
+            <div class="position-relative unit-8">
+            <a href="https://oss2019.github.io/RoboticsForSports/" class="mb-3 d-block img-a"><img src="images/sporotech.png" alt="Image" style="width:100%" class="img-fluid rounded"></a>
+            <center><span class="d-block text-gray-500 text-normal small mb-3">By <a href="index.html">Tech and Sports Councils, IIT Dharwad</a> <span class="mx-2">&bullet;</span> Oct 1, 2021</span></center>
+            <h2 class="h5 font-weihgt-normal line-height-sm mb-3"><a href="https://oss2019.github.io/RoboticsForSports/" target="_blank" class="text-black">
+              <center><strong>Sporotech, 2021</strong></a></h2></center>
+            <center><p><strong>Innovate, model and build full scale products that would be used in Sports!</strong></center> 
+              <br> <center>Check out for more information.</center></p>
+            </div>
+        </div>
+
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-3 event-card" data-aos="fade">
+              <div class="position-relative unit-8">
+              <a href="https://oss2019.github.io/summer-of-innovation-2021/#/" class="mb-3 d-block img-a"><img src="SOI21/logo.png" alt="Image" style="width:100%" class="img-fluid rounded"></a>
+              <center><span class="d-block text-gray-500 text-normal small mb-3">By <a href="index.html">OSS</a> <span class="mx-2">&bullet;</span> May 12th - Aug 12th, 2021</span></center>
+              <h2 class="h5 font-weihgt-normal line-height-sm mb-3"><a href="https://oss2019.github.io/summer-of-innovation-2021/#/" class="text-black">
+                <center><strong>Summer of Innovation 2.0</strong></a></h2></center>
+              <center><p><strong>Spend the summer refining and polishing your technical skills in multiple domains!</strong></center>
+                <center><br> Check out for more information.</p></center>
+              </div>
+          </div>
+
+          <!-- <div class="col-md-6 mb-5 mb-lg-0 col-lg-3 event-card" data-aos="fade">
+              <div class="position-relative unit-8">
+              <a href="code4cause.html" class="mb-3 d-block img-a"><img src="images/ohf-poster-2020.png" alt="Image" style="width:100%" class="img-fluid rounded"></a>
+              <center><span class="d-block text-gray-500 text-normal small mb-3">By <a href="index.html">OSS</a> <span class="mx-2">&bullet;</span>May 1st - July 31st, 2019</span></center>
+              <h2 class="h5 font-weihgt-normal line-height-sm mb-3"><a href="code4cause.html" class="text-black">
+                <center><strong>Code4Cause</strong></a></h2></center>
+              <center><p><strong>Calling all coding geniuses to come and give the brightest and fastest minds a run to their codes.</strong> </center>
+                <center><br> Check out for more information.</p></center>
+              </div>
+          </div> -->
+
+
+<!--For Reference -->
+<!--           <div class="col-md-6 mb-5 mb-lg-0 col-lg-3 event-card" data-aos="fade">
+            <div class="position-relative unit-8">
+            <a href="pyday2019.html" class="mb-3 d-block img-a"><img src="images/pyday_logo.jpg" alt="Image" style="width:100%" class="img-fluid rounded"></a>
+            <span class="d-block text-gray-500 text-normal small mb-3">By <a href="devhack2019.html">OSS</a> <span class="mx-2">&bullet;</span> Feb 13th-15th, 2019</span>
+            <h2 class="h5 font-weight-normal line-height-sm mb-3"><a href="pyday2019.html" class="text-black"><strong>PyDay 2019</strong></a></h2>
+            <p><strong>Learn Python </strong><br>From Beginner to Pro<br><br> No Prerequisites required. </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5 mb-lg-0 col-lg-3 event-card" data-aos="fade">
+            <div class="position-relative unit-8">
+            <a href="devhack2019.html" class="mb-3 d-block img-a"><img src="images/DevHack_logo.png" alt="Image" style="width:100%" class="img-fluid rounded"></a>
+            <span class="d-block text-gray-500 text-normal small mb-3">By <a href="devhack2019.html">DevHack</a> <span class="mx-2">&bullet;</span> Jan 11th-13th, 2019</span>
+            <h2 class="h5 font-weight-normal line-height-sm mb-3"><a href="devhack2019.html" class="text-black"><strong>DevHack 2019</strong></a></h2>
+            <p>Our college's first hackfest open to all engineers to ideate and innovate a clever solution to real world problems!</p>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+    <!--End Section Recent Events-->
+    <!--Start Section -->
+    <div class="site-section block-4 bg-light">
+
+      <div class="container">
+
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-6" data-aos="fade" >
+            <h2 class="text-black">In association with</h2>
+          </div>
+        </div>
+
+        <div class="row hosting">
+
+          <div class="col-md-6 col-lg-6 mb-5 mb-lg-6" data-aos="fade" data-aos-delay="100">
+            <div class="unit-3 h-100 bg-white" style="text-align: center; display: flex; flex-direction: column; justify-content: center">
+              <div class="unit-3-body">
+                <img src="images/dsc_logo.png" style="max-width: 100%">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 mb-5 mb-lg-6" data-aos="fade" data-aos-delay="100">
+            <div class="unit-3 h-100 bg-white" style="text-align: center; display: flex; flex-direction: column; justify-content: center">
+              <div class="unit-3-body">
+                <img src="images/github-logo.png" style="max-width: 100%">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--End Section Initiators--><!--Start Footer-->
+    <footer class="site-footer unit-5 overlay footer-color">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-6 col-md-6 col-lg-6 mb-5 mb-lg-0">
+                <img src="images/oss_logo.png" style="max-width: 100%">
+              </div>
+              <div class="col-6 col-md-3 col-lg-3 mb-5 mb-lg-0">
+              </div>
+              <div class="col-6 col-md-3 col-lg-3 mb-5 mb-lg-0">
+
+                <div class="text-center">
+                  <h3 class="footer-heading mb-4">Quick Links</h3>
+                  <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="codeofconduct.html">Terms &amp; Policies</a></li>
+                  </ul>
+                </div>
+                <div class="text-center">
+                  <h3 class="footer-heading mb-4">Follow Us</h3>
+                  <span class="unit-3-icon icon" style="margin-left: 5%" >
+                    <a href="https://www.facebook.com/OSS-Open-Student-Society-390468168410308/" target="_blank">
+                      <img src="images/facebook.png" style="max-width: 20px">
+                    </a>
+                  </span>
+                  <span class="unit-3-icon icon" style="margin-left: 5%" >
+                    <a href="https://www.linkedin.com/company/oss2019" target="_blank">
+                      <img src="images/linkedin.png" style="max-width: 20px">
+                    </a>
+                  </span>
+                  <span class="unit-3-icon icon" style="margin-left: 5%" >
+                    <a href="https://github.com/oss2019/oss2019.github.io/" target="_blank">
+                      <img src="images/github.png" style="max-width: 20px">
+                    </a>
+                  </span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <h3 class="footer-heading mb-4">Contact Info</h3>
+            <ul class="list-unstyled">
+              <li>
+                <span class="d-block text-white">Address</span>
+                Indian Institute of Technology, Dharwad,
+                Karnataka 580011
+              </li>
+              <li>
+                <span class="d-block text-white">Email</span>
+                oss@iitdh.ac.in
+              </li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved <br> OSS, IIT Dharwad<br>
+            </p>
+            <p style="font-size: 10px;">
+            This template is made by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <br>
+            Icons made by <a href="https://www.flaticon.com/authors/geotatah" target="_blank" title="geotatah" style="">geotatah</a> from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com </a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"          title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+          </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-up-btn">
+        <div>
+          <img src="images/arrow-up.png" alt="up">
+        </div>
+      </div>
+    </footer>
+    <!--End Footer-->
     </div>
   );
 };
